@@ -7,9 +7,8 @@ It includes the required patches, environment setup, and launch configuration to
 ---
 
 ## 📦 Repositories Used
-- **Core ORB-SLAM3 Library**: [UZ-SLAMLab/ORB_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)  
-- **ROS 2 Wrapper**: [zang09/ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2)
-
+- **Core ORB-SLAM3 Library**: [UZ-SLAMLab/ORB_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)
+  
 ---
 
 ## 🔧 Step 1: Install Dependencies
@@ -36,8 +35,8 @@ cd ..
 ## 📂 Step 2: Set Up the Workspace
 
 ```bash
-mkdir -p ~/orb_ws/src
-cd ~/orb_ws/src
+mkdir -p ~/orb_ws
+cd ~/orb_ws
 ```
 
 Clone ORB-SLAM3 **outside** the workspace:
@@ -47,20 +46,18 @@ cd ~
 git clone https://github.com/UZ-SLAMLab/ORB_SLAM3.git
 ```
 
-Clone the ROS 2 wrapper:
+Clone the ROS 2 wrapper inside your workspace:
 
 ```bash
-cd ~
-git clone https://github.com/zang09/ORB_SLAM3_ROS2.git
+cd ~/orb_ws
+git clone https://github.com/TonyOx369/ORB_SLAM3_ROS2.git
 ```
 
-Move the real ROS 2 package into your workspace:
+Remove the existing build directories:
 
 ```bash
-mv ~/ORB_SLAM3_ROS2/ros2/orbslam3_ros2 ~/orb_ws/src/orbslam3
-rm -rf ~/ORB_SLAM3_ROS2
+rm -rf /build /install /log
 ```
-
 ---
 
 ## 🏗️ Step 3: Build Core ORB-SLAM3
@@ -93,26 +90,6 @@ install(
     DESTINATION share/${PROJECT_NAME}
 )
 ```
-
-### 4.2 Fix Trajectory Saving
-
-Edit `src/stereo-inertial/stereo-inertial-node.cpp`:
-
-```cpp
-#include <unistd.h>
-
-// Change loop
-while (1)  -->  while (rclcpp::ok())
-
-// Add at end of SyncWithImu():
-std::cout << "----------------------------------------" << std::endl;
-std::cout << "ROS 2 SHUTDOWN DETECTED." << std::endl;
-std::cout << "Attempting to save KeyFrameTrajectory.txt..." << std::endl;
-SLAM_->SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
-std::cout << "Save command executed." << std::endl;
-std::cout << "----------------------------------------" << std::endl;
-```
-
 ---
 
 ## 🔨 Step 5: Build ROS 2 Workspace
@@ -126,36 +103,9 @@ colcon build
 
 ## ⚙️ Step 6: Create Camera Config File
 
-Make a file `~/orb_ws/ZED_stereo_initial.yaml` with your ZED camera intrinsics, extrinsics, and IMU parameters.
+Make a file `~/orb_ws/ZED_stereo_initial.yaml` with your respective camera intrinsics, extrinsics, and IMU parameters.
 
 ---
-
-## 🚀 Step 7: Create Custom Launch File
-
-Create `~/orb_ws/src/orbslam3/launch/my_zed_launch.py`:
-
-```python
-from launch import LaunchDescription
-from launch_ros.actions import Node
-
-def generate_launch_description():
-    return LaunchDescription([
-        Node(
-            package='orbslam3',
-            executable='stereo-inertial',
-            name='orbslam3_stereo_inertial',
-            output='screen',
-            parameters=[
-                {'use_sim_time': True}
-            ],
-            arguments=[
-                '/home/$USER/ORB_SLAM3/Vocabulary/ORBvoc.txt',
-                '/home/$USER/orb_ws/ZED_stereo_initial.yaml',
-                'false'
-            ]
-        )
-    ])
-```
 
 Rebuild:
 
@@ -166,7 +116,7 @@ colcon build
 
 ---
 
-## ▶️ Step 8: Run the System
+## ▶️ Step 7: Run the System
 
 ### Terminal 1: Start ORB-SLAM3
 
