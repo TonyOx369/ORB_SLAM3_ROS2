@@ -32,8 +32,6 @@ cd ..
 
 ### Install OpenCV 4.2 from Source
 
-## 🔧 Step 1.5: Install OpenCV 4.2 from Source
-
 ORB-SLAM3 requires a specific version of OpenCV (4.2). Install it from source as follows:
 
 ### Install dependencies
