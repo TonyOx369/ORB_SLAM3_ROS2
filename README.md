@@ -85,7 +85,9 @@ sudo ldconfig
 Verify installation
 ```bash
 pkg-config --modversion opencv4
+```
 Expected output:
+```
 4.2.0
 ```
 
