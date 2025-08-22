@@ -182,21 +182,3 @@ source /opt/ros/humble/setup.bash
 ros2 bag play /path/to/your/bag/folder/ --clock
 ```
 
----
-
-## 📌 Notes
-
-* Press **Ctrl+C** in Terminal 1 to stop ORB-SLAM3.
-* On shutdown, `KeyFrameTrajectory.txt` will be saved in `~/orb_ws/`.
-* Ensure your `.yaml` calibration file matches your ZED camera.
-
----
-
-## ✅ Done!
-
-You should now see the ORB-SLAM3 Pangolin viewer processing your ZED bag file. 🎉
-
-```
-
-Do you also want me to generate a **ready-to-use YAML config template** (`ZED_stereo_initial.yaml`) with placeholders for your ZED intrinsics and IMU?
-```
