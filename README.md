@@ -32,8 +32,12 @@ cd ..
 
 ### Install OpenCV 4.2 from Source
 
-First install required dependencies:
+## 🔧 Step 1.5: Install OpenCV 4.2 from Source
 
+ORB-SLAM3 requires a specific version of OpenCV (4.2). Install it from source as follows:
+
+### Install dependencies
+```bash
 sudo apt-get update
 sudo apt-get install -y build-essential cmake git unzip pkg-config \
     libjpeg-dev libpng-dev libtiff-dev \
@@ -47,10 +51,9 @@ sudo apt-get install -y build-essential cmake git unzip pkg-config \
     libopenexr-dev \
     libatlas-base-dev gfortran \
     python3-dev python3-numpy
-
-
-Clone OpenCV and contrib modules:
-
+```
+Clone OpenCV and contrib repositories
+```bash
 cd ~
 git clone https://github.com/opencv/opencv.git
 git clone https://github.com/opencv/opencv_contrib.git
@@ -58,10 +61,10 @@ cd opencv
 git checkout 4.2.0
 cd ../opencv_contrib
 git checkout 4.2.0
+```
 
-
-Build OpenCV:
-
+Build OpenCV
+```bash
 cd ~/opencv
 mkdir build && cd build
 
@@ -78,16 +81,13 @@ cmake -D CMAKE_BUILD_TYPE=Release \
 make -j$(nproc)
 sudo make install
 sudo ldconfig
-
-
-Check installation:
-
+```
+Verify installation
+```bash
 pkg-config --modversion opencv4
-
-
 Expected output:
-
 4.2.0
+```
 
 
 ---
