@@ -181,8 +181,9 @@ ros2 launch orbslam3 my_zed_launch.py
 source /opt/ros/humble/setup.bash
 ros2 bag play /path/to/your/bag/folder/ --clock
 ```
+https://github.com/user-attachments/assets/64952b97-d58a-4943-b276-0dbd26ef51d6
 
 
 
-https://github.com/user-attachments/assets/5c1e133c-ed01-4bbb-9832-60e9c7f50fdb
+
 
