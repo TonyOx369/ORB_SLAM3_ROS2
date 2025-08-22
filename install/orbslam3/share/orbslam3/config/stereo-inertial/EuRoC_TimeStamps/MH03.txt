@@ -1,0 +1,1 @@
+/home/sid/orb_ws/src/orbslam3/config/stereo-inertial/EuRoC_TimeStamps/MH03.txt

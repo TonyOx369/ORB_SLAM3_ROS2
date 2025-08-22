@@ -1,0 +1,1 @@
+/home/sid/orb_ws/src/orbslam3/config/rgb-d/associations/fr3_office_val.txt

@@ -1,0 +1,15 @@
+/zed/zed_node/left/image_rect_color:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 5
+/zed/zed_node/right/image_rect_color:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 5
+/zed/zed_node/imu/data:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 5

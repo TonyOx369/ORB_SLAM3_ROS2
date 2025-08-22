@@ -1,0 +1,1112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.000215] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.004304] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.004837] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'build'}
+[0.005514] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sid/orb_ws/build/orbslam3', '--', '-j20', '-l20'], 'cwd': '/home/sid/orb_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib::/home/sid/ORB_SLAM3/Thirdparty/g2o/lib'), ('LESS', '-R'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sid/orb_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sid'), ('OSH', '/home/sid/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sid:@/tmp/.ICE-unix/2786,unix/sid:/tmp/.ICE-unix/2786'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff67636a_1fc2_4d99_bff4_385bf21975df'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sid/orb_ws/install/orbslam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/orb_ws/build/orbslam3'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sid/orb_ws/install/orbslam3:/opt/ros/humble')]), 'shell': False}
+[0.040629] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo-inertial\x1b[0m\n'}
+[0.054587] (orbslam3) StdoutLine: {'line': b'[ 41%] Built target mono\n'}
+[0.054718] (orbslam3) StdoutLine: {'line': b'[ 50%] Built target stereo\n'}
+[0.054894] (orbslam3) StdoutLine: {'line': b'[ 75%] Built target rgbd\n'}
+[0.060489] (orbslam3) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o\x1b[0m\n'}
+[0.099579] (-) TimerEvent: {}
+[0.199846] (-) TimerEvent: {}
+[0.300185] (-) TimerEvent: {}
+[0.400424] (-) TimerEvent: {}
+[0.500825] (-) TimerEvent: {}
+[0.601215] (-) TimerEvent: {}
+[0.701631] (-) TimerEvent: {}
+[0.801965] (-) TimerEvent: {}
+[0.902310] (-) TimerEvent: {}
+[1.002648] (-) TimerEvent: {}
+[1.102874] (-) TimerEvent: {}
+[1.203257] (-) TimerEvent: {}
+[1.303518] (-) TimerEvent: {}
+[1.403880] (-) TimerEvent: {}
+[1.504136] (-) TimerEvent: {}
+[1.604366] (-) TimerEvent: {}
+[1.704617] (-) TimerEvent: {}
+[1.804858] (-) TimerEvent: {}
+[1.905229] (-) TimerEvent: {}
+[2.005476] (-) TimerEvent: {}
+[2.105832] (-) TimerEvent: {}
+[2.206161] (-) TimerEvent: {}
+[2.306491] (-) TimerEvent: {}
+[2.406831] (-) TimerEvent: {}
+[2.507162] (-) TimerEvent: {}
+[2.581495] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:30\x1b[m\x1b[K,\n'}
+[2.581643] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.581676] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.581701] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.581726] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.581749] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.581774] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.581798] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.581823] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.581845] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.581870] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.581900] (orbslam3) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[2.581923] (orbslam3) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.607340] (-) TimerEvent: {}
+[2.624894] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.625004] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.625035] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.625060] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.625084] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.625108] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.625131] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.625154] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.625177] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.625208] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.625233] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.625256] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[2.625279] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.625305] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.625329] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.625353] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.625375] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.625397] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.625427] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.625450] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.625472] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.625494] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.625516] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.625540] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.625564] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.625586] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.625606] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.625630] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.625652] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.625673] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.625695] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.625716] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.636288] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.636423] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.636456] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.636485] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.636511] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.636536] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.636562] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.636586] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.636610] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.636634] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.636658] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.636683] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.636711] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.636740] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.636762] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.636789] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.636833] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.636857] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.636880] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.636901] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.636923] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.636944] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.636966] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.636989] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.637010] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.637031] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.637054] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.637076] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.637097] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.637118] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.637140] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.637161] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.637185] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.637213] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.637236] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.637261] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.637284] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.637307] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.637331] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.637353] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.637375] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.637403] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.637427] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.637456] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.637480] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.637505] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.637528] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.637552] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.637573] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.637595] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.637616] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.637638] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.637660] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.637681] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.637702] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.637723] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.637745] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.637766] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.637788] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.637809] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.637830] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.637865] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.662532] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41\x1b[m\x1b[K,\n'}
+[2.662652] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.662695] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.662720] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.662744] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.662767] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.662791] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.662817] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.662839] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.662862] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.662884] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.662907] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.662932] (orbslam3) StderrLine: {'line': b'   43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[2.662954] (orbslam3) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.662975] (orbslam3) StderrLine: {'line': b'      |                                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[2.707430] (-) TimerEvent: {}
+[2.807762] (-) TimerEvent: {}
+[2.855504] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.855642] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.855674] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.855709] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.855733] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.855756] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.855778] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.855802] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.855825] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.855847] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.855870] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.855892] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.855916] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[2.855938] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.855964] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.855989] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.856012] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.856033] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.856058] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.856079] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.856100] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.856122] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.856143] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.856164] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.856186] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.856244] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.856266] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.856292] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.856314] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.856336] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.856356] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.856378] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.856400] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.869754] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.869852] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.869883] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.869908] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.869932] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.869954] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.869977] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.869999] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.870021] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.870050] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.870075] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.870097] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.870123] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[2.870146] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.870171] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.870200] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.870224] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.870246] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.870268] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.870290] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.870311] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.870332] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.870354] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.870375] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.870397] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.870418] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.870439] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.870460] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.870482] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.870503] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.870526] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.870547] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.870569] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.884587] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.884708] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.884739] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.884765] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.884790] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.884814] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.884837] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.884860] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.884882] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.884904] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.884926] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.884948] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.884973] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[2.884995] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.885021] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.885047] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.885070] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.885093] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.885115] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.885136] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.885157] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.885179] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.885206] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.885237] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.885259] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.885283] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.885305] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.885330] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.885354] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.885376] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.885399] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.885420] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.885441] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.885462] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.885484] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.885508] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.885529] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.885551] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.885573] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.885594] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.885615] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.885637] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.885658] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.885680] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.885701] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.885731] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.885754] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.885776] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.885799] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.885820] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.885845] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.885866] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.885888] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.885909] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.885930] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.885951] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.885973] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.885994] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.886017] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.886037] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.886058] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.886080] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.886101] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.886124] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.907941] (-) TimerEvent: {}
+[2.918425] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.918518] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.918550] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.918575] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.918599] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.918621] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.918644] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.918667] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.918689] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.918711] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.918734] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.918764] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.918791] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[2.918814] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.918840] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.918863] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.918885] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.918908] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.918929] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.918951] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.918973] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.918994] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.919016] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.919037] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.919059] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.919080] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.919101] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.919122] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.919143] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.919165] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.919187] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.919215] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.919237] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.925139] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.925226] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.925263] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.925289] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.925313] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.925337] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.925360] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.925383] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.925406] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.925429] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.925451] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.925473] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.925499] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.925524] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.925546] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.925569] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.925591] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.925613] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.925635] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.925657] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.925679] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.925700] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.925721] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.925742] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.925768] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.925790] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.925811] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.925832] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.925854] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.925878] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.925899] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.957305] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.957446] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.957480] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.957508] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.957534] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.957559] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.957584] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.957608] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.957632] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.957655] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.957679] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.957702] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.957737] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[2.957760] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.957791] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.957816] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.957840] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.957863] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.957888] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.957914] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.957938] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.957966] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.957990] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.958013] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.958036] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.958060] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.958084] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.958108] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.958132] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.958155] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.958178] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.958206] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.958231] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.958253] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.958277] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.958300] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.958323] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.958346] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.958369] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.958392] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.958414] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.958437] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.958459] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.958482] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.958504] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.958530] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.958556] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.958579] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.958602] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.958625] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.958647] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.958670] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.958696] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.958719] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.958742] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.958767] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.958789] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.958811] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.958836] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.958858] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[2.958881] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[2.958904] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.958926] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.958949] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.008139] (-) TimerEvent: {}
+[3.063331] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[3.063479] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.063514] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.063543] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.063571] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.063596] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.063622] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.063646] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.063669] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.063692] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.063726] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.063751] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.063776] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[3.063799] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.063827] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[3.063853] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.063877] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.063902] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[3.063926] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[3.063950] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[3.063973] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[3.063997] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[3.064021] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.064044] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.064068] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.064091] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.064114] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.064137] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.064160] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.064183] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.064217] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.064242] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.064267] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.079564] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[3.079735] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.079769] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.079796] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.079824] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.079848] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.079876] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.079898] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.079920] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.079942] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.079965] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.079987] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.080012] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[3.080035] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.080061] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[3.080085] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.080107] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.080130] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[3.080152] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[3.080174] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[3.080199] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[3.080248] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[3.080269] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.080290] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.080311] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.080334] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.080355] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.080376] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.080397] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.080421] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.080442] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.080464] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.080487] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.080512] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[3.080536] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.080559] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.080581] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.080605] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.080626] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.080650] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.080671] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.080694] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.080716] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.080740] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.080777] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.080805] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[3.080830] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.080854] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.080877] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[3.080900] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[3.080926] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[3.080949] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[3.080973] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[3.080996] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.081019] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.081042] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.081065] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.081088] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.081111] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.081134] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.081158] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.081181] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.081209] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.081254] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.101694] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[3.101808] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.101839] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.101865] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.101888] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.101910] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.101933] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.101956] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.101978] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.102001] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.102023] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.102045] (orbslam3) StderrLine: {'line': b'/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.102078] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[3.102103] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.102131] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[3.102154] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.102179] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.102207] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[3.102230] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[3.102252] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[3.102274] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[3.102295] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[3.102317] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.102338] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.102360] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.102381] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.102402] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.102423] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.102444] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.102465] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.102487] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.102509] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.102530] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.108306] (-) TimerEvent: {}
+[3.108836] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[3.108904] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.108934] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.108960] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.108989] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.109012] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.109035] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.109058] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.109080] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.109102] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.109125] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.109148] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.109173] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[3.109202] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.109231] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.109254] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[3.109277] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[3.109298] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[3.109320] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[3.109342] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[3.109363] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.109385] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.109406] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.109428] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.109452] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.109474] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.109495] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.109519] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.109540] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.109564] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.109585] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.208509] (-) TimerEvent: {}
+[3.308784] (-) TimerEvent: {}
+[3.409117] (-) TimerEvent: {}
+[3.509480] (-) TimerEvent: {}
+[3.609815] (-) TimerEvent: {}
+[3.679315] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Atlas.h:26\x1b[m\x1b[K,\n'}
+[3.679460] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[3.679493] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.679518] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.679542] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.679565] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.679588] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.679612] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.679641] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.679665] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(\x1b[01;35m\x1b[Kconst cv::KeyPoint& kp1\x1b[m\x1b[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,\n'}
+[3.679710] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.679733] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.679757] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, \x1b[01;35m\x1b[Kconst cv::KeyPoint& kp2\x1b[m\x1b[K, GeometricCamera* pOther,\n'}
+[3.679779] (orbslam3) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.679972] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KpOther\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680034] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, \x1b[01;35m\x1b[KGeometricCamera* pOther\x1b[m\x1b[K,\n'}
+[3.680075] (orbslam3) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.680128] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680289] (orbslam3) StderrLine: {'line': b'   84 |                                  \x1b[01;35m\x1b[KSophus::SE3f& Tcw1\x1b[m\x1b[K, Sophus::SE3f& Tcw2,\n'}
+[3.680336] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.680362] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680389] (orbslam3) StderrLine: {'line': b'   84 |                                  Sophus::SE3f& Tcw1, \x1b[01;35m\x1b[KSophus::SE3f& Tcw2\x1b[m\x1b[K,\n'}
+[3.680413] (orbslam3) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.680435] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680464] (orbslam3) StderrLine: {'line': b'   85 |                                  \x1b[01;35m\x1b[Kconst float sigmaLevel1\x1b[m\x1b[K, const float sigmaLevel2,\n'}
+[3.680489] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.680512] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680535] (orbslam3) StderrLine: {'line': b'   85 |                                  const float sigmaLevel1, \x1b[01;35m\x1b[Kconst float sigmaLevel2\x1b[m\x1b[K,\n'}
+[3.680557] (orbslam3) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.680580] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx3Dtriangulated\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680603] (orbslam3) StderrLine: {'line': b'   86 |                                  \x1b[01;35m\x1b[KEigen::Vector3f& x3Dtriangulated\x1b[m\x1b[K) { return false;}\n'}
+[3.680625] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.680647] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[3.680669] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[3.680689] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.680713] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.680735] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.680756] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.680777] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.680798] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.680821] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680852] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[3.680874] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.680894] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.680918] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[3.680940] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.680962] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[3.680984] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[3.681006] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.681028] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.681049] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.681072] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.681096] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.681118] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.681141] (orbslam3) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[3.681163] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681186] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[3.681216] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[3.681238] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.681259] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.681283] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.681304] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10\x1b[m\x1b[K,\n'}
+[3.681326] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.681347] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.681369] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.681391] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[3.681413] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681435] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.681459] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[3.681480] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681502] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.681524] (orbslam3) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[3.681547] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681568] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.681589] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.681614] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[3.681635] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681659] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.681681] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[3.681703] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681724] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.681746] (orbslam3) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[3.681768] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.709998] (-) TimerEvent: {}
+[3.810310] (-) TimerEvent: {}
+[3.910530] (-) TimerEvent: {}
+[4.010783] (-) TimerEvent: {}
+[4.111104] (-) TimerEvent: {}
+[4.211448] (-) TimerEvent: {}
+[4.311771] (-) TimerEvent: {}
+[4.412090] (-) TimerEvent: {}
+[4.512349] (-) TimerEvent: {}
+[4.612669] (-) TimerEvent: {}
+[4.713018] (-) TimerEvent: {}
+[4.813385] (-) TimerEvent: {}
+[4.913749] (-) TimerEvent: {}
+[5.014062] (-) TimerEvent: {}
+[5.114403] (-) TimerEvent: {}
+[5.214719] (-) TimerEvent: {}
+[5.315033] (-) TimerEvent: {}
+[5.415372] (-) TimerEvent: {}
+[5.515698] (-) TimerEvent: {}
+[5.616010] (-) TimerEvent: {}
+[5.716298] (-) TimerEvent: {}
+[5.816626] (-) TimerEvent: {}
+[5.916949] (-) TimerEvent: {}
+[6.017293] (-) TimerEvent: {}
+[6.117612] (-) TimerEvent: {}
+[6.217936] (-) TimerEvent: {}
+[6.318270] (-) TimerEvent: {}
+[6.418611] (-) TimerEvent: {}
+[6.518976] (-) TimerEvent: {}
+[6.619316] (-) TimerEvent: {}
+[6.719684] (-) TimerEvent: {}
+[6.820032] (-) TimerEvent: {}
+[6.920246] (-) TimerEvent: {}
+[7.020586] (-) TimerEvent: {}
+[7.120939] (-) TimerEvent: {}
+[7.221265] (-) TimerEvent: {}
+[7.321595] (-) TimerEvent: {}
+[7.421947] (-) TimerEvent: {}
+[7.522270] (-) TimerEvent: {}
+[7.622520] (-) TimerEvent: {}
+[7.722849] (-) TimerEvent: {}
+[7.823215] (-) TimerEvent: {}
+[7.923540] (-) TimerEvent: {}
+[8.023867] (-) TimerEvent: {}
+[8.124213] (-) TimerEvent: {}
+[8.224434] (-) TimerEvent: {}
+[8.324771] (-) TimerEvent: {}
+[8.425108] (-) TimerEvent: {}
+[8.525428] (-) TimerEvent: {}
+[8.625641] (-) TimerEvent: {}
+[8.725971] (-) TimerEvent: {}
+[8.826284] (-) TimerEvent: {}
+[8.926600] (-) TimerEvent: {}
+[9.026917] (-) TimerEvent: {}
+[9.127228] (-) TimerEvent: {}
+[9.227534] (-) TimerEvent: {}
+[9.327843] (-) TimerEvent: {}
+[9.428148] (-) TimerEvent: {}
+[9.528464] (-) TimerEvent: {}
+[9.628665] (-) TimerEvent: {}
+[9.728975] (-) TimerEvent: {}
+[9.829279] (-) TimerEvent: {}
+[9.929587] (-) TimerEvent: {}
+[10.029900] (-) TimerEvent: {}
+[10.130234] (-) TimerEvent: {}
+[10.230550] (-) TimerEvent: {}
+[10.330856] (-) TimerEvent: {}
+[10.431172] (-) TimerEvent: {}
+[10.531518] (-) TimerEvent: {}
+[10.631746] (-) TimerEvent: {}
+[10.732060] (-) TimerEvent: {}
+[10.832429] (-) TimerEvent: {}
+[10.836000] (orbslam3) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable stereo-inertial\x1b[0m\n'}
+[10.932649] (-) TimerEvent: {}
+[11.032906] (-) TimerEvent: {}
+[11.133296] (-) TimerEvent: {}
+[11.137998] (orbslam3) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.2\n'}
+[11.138242] (orbslam3) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.2\n'}
+[11.233451] (-) TimerEvent: {}
+[11.333857] (-) TimerEvent: {}
+[11.434252] (-) TimerEvent: {}
+[11.534512] (-) TimerEvent: {}
+[11.597406] (orbslam3) StdoutLine: {'line': b'[100%] Built target stereo-inertial\n'}
+[11.606424] (orbslam3) CommandEnded: {'returncode': 0}
+[11.607162] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'install'}
+[11.612833] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sid/orb_ws/build/orbslam3'], 'cwd': '/home/sid/orb_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib::/home/sid/ORB_SLAM3/Thirdparty/g2o/lib'), ('LESS', '-R'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sid/orb_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sid'), ('OSH', '/home/sid/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sid:@/tmp/.ICE-unix/2786,unix/sid:/tmp/.ICE-unix/2786'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff67636a_1fc2_4d99_bff4_385bf21975df'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sid/orb_ws/install/orbslam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/orb_ws/build/orbslam3'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sid/orb_ws/install/orbslam3:/opt/ros/humble')]), 'shell': False}
+[11.617711] (orbslam3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.618086] (orbslam3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.618521] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/mono\n'}
+[11.618666] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/rgbd\n'}
+[11.618752] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo\n'}
+[11.618814] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo-inertial\n'}
+[11.618872] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//launch/stereo_orbslam3.launch.py\n'}
+[11.620361] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC.yaml\n'}
+[11.620530] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH01.txt\n'}
+[11.620607] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH02.txt\n'}
+[11.620674] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH03.txt\n'}
+[11.620739] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH04.txt\n'}
+[11.620803] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH05.txt\n'}
+[11.620867] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V101.txt\n'}
+[11.620930] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V102.txt\n'}
+[11.620996] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V103.txt\n'}
+[11.621135] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V201.txt\n'}
+[11.621290] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V202.txt\n'}
+[11.621404] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V203.txt\n'}
+[11.621469] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH01.txt\n'}
+[11.621541] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH02.txt\n'}
+[11.621607] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH03.txt\n'}
+[11.621667] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH04.txt\n'}
+[11.621781] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH05.txt\n'}
+[11.621843] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V101.txt\n'}
+[11.621908] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V102.txt\n'}
+[11.621969] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V103.txt\n'}
+[11.622029] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V201.txt\n'}
+[11.622087] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V202.txt\n'}
+[11.622147] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V203.txt\n'}
+[11.622251] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH01.yaml\n'}
+[11.622335] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH02.yaml\n'}
+[11.622413] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH03.yaml\n'}
+[11.622473] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH04.yaml\n'}
+[11.622564] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH05.yaml\n'}
+[11.622624] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V101.yaml\n'}
+[11.622684] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V102.yaml\n'}
+[11.622742] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V103.yaml\n'}
+[11.622831] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V201.yaml\n'}
+[11.622908] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V202.yaml\n'}
+[11.622967] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V203.yaml\n'}
+[11.623026] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/RealSense_D435i.yaml\n'}
+[11.623085] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/RealSense_T265.yaml\n'}
+[11.623143] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM-VI.yaml\n'}
+[11.623206] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM-VI_far.yaml\n'}
+[11.623265] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor1_512.txt\n'}
+[11.623389] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor2_1024.txt\n'}
+[11.623464] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor2_512.txt\n'}
+[11.623524] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor3_512.txt\n'}
+[11.623583] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor4_512.txt\n'}
+[11.623675] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor5_512.txt\n'}
+[11.623735] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale1_512.txt\n'}
+[11.623794] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale2_512.txt\n'}
+[11.623886] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale3_512.txt\n'}
+[11.623947] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale4_512.txt\n'}
+[11.624006] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale5_512.txt\n'}
+[11.624098] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale6_512.txt\n'}
+[11.624158] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors1_512.txt\n'}
+[11.624220] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors2_512.txt\n'}
+[11.624279] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors3_512.txt\n'}
+[11.624371] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors4_512.txt\n'}
+[11.624446] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors5_512.txt\n'}
+[11.624505] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors6_512.txt\n'}
+[11.624564] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors7_512.txt\n'}
+[11.624625] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors8_512.txt\n'}
+[11.624732] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room1_512.txt\n'}
+[11.624830] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room2_512.txt\n'}
+[11.624911] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room3_512.txt\n'}
+[11.624977] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room4_512.txt\n'}
+[11.625036] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room5_512.txt\n'}
+[11.625149] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room6_512.txt\n'}
+[11.625212] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides1_512.txt\n'}
+[11.625342] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides2_512.txt\n'}
+[11.625419] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides3_512.txt\n'}
+[11.625495] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[11.625571] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[11.625646] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[11.625720] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[11.625792] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[11.625859] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[11.625934] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[11.626009] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[11.626085] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[11.626158] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[11.626238] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[11.626326] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[11.626422] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[11.626457] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[11.626485] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[11.626511] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[11.626555] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[11.626582] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[11.626608] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[11.626633] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[11.626657] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[11.626699] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[11.626724] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[11.626747] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[11.626772] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[11.626810] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[11.626835] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[11.626860] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[11.626886] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[11.626911] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC.yaml\n'}
+[11.626937] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH01.txt\n'}
+[11.626963] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH02.txt\n'}
+[11.627004] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH03.txt\n'}
+[11.627028] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH04.txt\n'}
+[11.627053] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH05.txt\n'}
+[11.627078] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V101.txt\n'}
+[11.627102] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V102.txt\n'}
+[11.627127] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V103.txt\n'}
+[11.627152] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V201.txt\n'}
+[11.627190] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V202.txt\n'}
+[11.627219] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V203.txt\n'}
+[11.627245] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI00-02.yaml\n'}
+[11.627271] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI03.yaml\n'}
+[11.627315] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI04-12.yaml\n'}
+[11.627340] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH01.yaml\n'}
+[11.627366] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH02.yaml\n'}
+[11.627390] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH03.yaml\n'}
+[11.627414] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH04.yaml\n'}
+[11.627437] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH05.yaml\n'}
+[11.627461] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V101.yaml\n'}
+[11.627484] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V102.yaml\n'}
+[11.627507] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V103.yaml\n'}
+[11.627531] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V201.yaml\n'}
+[11.627554] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V202.yaml\n'}
+[11.627578] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V203.yaml\n'}
+[11.627620] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/RealSense_D435i.yaml\n'}
+[11.627645] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/RealSense_T265.yaml\n'}
+[11.627670] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM-VI.yaml\n'}
+[11.627694] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM1.yaml\n'}
+[11.627718] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM2.yaml\n'}
+[11.627755] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM3.yaml\n'}
+[11.627778] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[11.627802] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[11.627827] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[11.627863] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[11.627899] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[11.627923] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[11.627948] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[11.627973] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[11.627999] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[11.628025] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[11.628071] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[11.628103] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[11.628128] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[11.628154] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[11.628181] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[11.628209] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[11.628236] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[11.628261] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[11.628285] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[11.628309] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[11.628333] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[11.628358] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[11.628381] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[11.628406] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[11.628430] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[11.628453] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[11.628487] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[11.628530] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[11.628556] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[11.628581] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d-inertial/RealSense_D435i.yaml\n'}
+[11.628605] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/RealSense_D435i.yaml\n'}
+[11.628641] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM1.yaml\n'}
+[11.628665] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM2.yaml\n'}
+[11.628690] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM3.yaml\n'}
+[11.628725] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_desk.txt\n'}
+[11.628749] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_desk2.txt\n'}
+[11.628772] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_room.txt\n'}
+[11.628796] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_xyz.txt\n'}
+[11.628819] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr2_desk.txt\n'}
+[11.628843] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr2_xyz.txt\n'}
+[11.628867] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_nstr_tex_near.txt\n'}
+[11.628891] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_office.txt\n'}
+[11.628922] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_office_val.txt\n'}
+[11.628947] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_str_tex_far.txt\n'}
+[11.628970] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_str_tex_near.txt\n'}
+[11.628993] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC.yaml\n'}
+[11.629017] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH01.txt\n'}
+[11.629040] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH02.txt\n'}
+[11.629063] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH03.txt\n'}
+[11.629087] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH04.txt\n'}
+[11.629110] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH05.txt\n'}
+[11.629157] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V101.txt\n'}
+[11.629182] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V102.txt\n'}
+[11.629208] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V103.txt\n'}
+[11.629235] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V201.txt\n'}
+[11.629260] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V202.txt\n'}
+[11.629285] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V203.txt\n'}
+[11.629310] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH01.txt\n'}
+[11.629350] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH02.txt\n'}
+[11.629376] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH03.txt\n'}
+[11.629402] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH04.txt\n'}
+[11.629428] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH05.txt\n'}
+[11.629454] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V101.txt\n'}
+[11.629494] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V102.txt\n'}
+[11.629522] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V103.txt\n'}
+[11.629547] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V201.txt\n'}
+[11.629585] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V202.txt\n'}
+[11.629612] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V203.txt\n'}
+[11.629638] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V203_2.txt\n'}
+[11.629662] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH01.yaml\n'}
+[11.629686] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH02.yaml\n'}
+[11.629709] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH03.yaml\n'}
+[11.629732] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH04.yaml\n'}
+[11.629755] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH05.yaml\n'}
+[11.629794] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V101.yaml\n'}
+[11.629818] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V102.yaml\n'}
+[11.629841] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V103.yaml\n'}
+[11.629864] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V201.yaml\n'}
+[11.629887] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V202.yaml\n'}
+[11.629911] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V203.yaml\n'}
+[11.629935] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/RealSense_D435i.yaml\n'}
+[11.629958] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/RealSense_T265.yaml\n'}
+[11.629981] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM-VI.yaml\n'}
+[11.630005] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM-VI_far.yaml\n'}
+[11.630028] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor1_512.txt\n'}
+[11.630051] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor2_1024.txt\n'}
+[11.630075] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor2_512.txt\n'}
+[11.630099] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor3_512.txt\n'}
+[11.630123] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor4_512.txt\n'}
+[11.630146] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor5_512.txt\n'}
+[11.630190] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale1_512.txt\n'}
+[11.630224] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale2_512.txt\n'}
+[11.630249] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale3_512.txt\n'}
+[11.630274] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale4_512.txt\n'}
+[11.630300] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale5_512.txt\n'}
+[11.630340] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale6_512.txt\n'}
+[11.630362] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors1_512.txt\n'}
+[11.630394] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors2_512.txt\n'}
+[11.630419] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors3_512.txt\n'}
+[11.630443] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors4_512.txt\n'}
+[11.630477] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors5_512.txt\n'}
+[11.630501] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors6_512.txt\n'}
+[11.630524] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors7_512.txt\n'}
+[11.630548] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors8_512.txt\n'}
+[11.630571] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room1_512.txt\n'}
+[11.630594] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room2_512.txt\n'}
+[11.630632] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room3_512.txt\n'}
+[11.630661] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room4_512.txt\n'}
+[11.630689] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room5_512.txt\n'}
+[11.630711] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room6_512.txt\n'}
+[11.630735] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides1_512.txt\n'}
+[11.630758] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides2_512.txt\n'}
+[11.630782] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides3_512.txt\n'}
+[11.630805] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[11.630829] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[11.630852] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[11.630876] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[11.630899] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[11.630922] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[11.630946] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[11.630969] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[11.631011] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[11.631041] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[11.631064] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[11.631087] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[11.631122] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[11.631148] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[11.631172] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[11.631198] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[11.631224] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[11.631262] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[11.631290] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[11.631329] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[11.631360] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[11.631384] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[11.631412] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[11.631436] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[11.631461] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[11.631485] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[11.631509] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[11.631534] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[11.631558] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[11.631582] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC.yaml\n'}
+[11.631636] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH01.txt\n'}
+[11.631660] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH02.txt\n'}
+[11.631685] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH03.txt\n'}
+[11.631746] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH04.txt\n'}
+[11.631801] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH05.txt\n'}
+[11.631824] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V101.txt\n'}
+[11.631847] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V102.txt\n'}
+[11.631870] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V103.txt\n'}
+[11.631892] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V201.txt\n'}
+[11.631914] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V202.txt\n'}
+[11.631938] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V203.txt\n'}
+[11.631964] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI00-02.yaml\n'}
+[11.631987] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI03.yaml\n'}
+[11.632043] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI04-12.yaml\n'}
+[11.632067] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH01.yaml\n'}
+[11.632090] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH02.yaml\n'}
+[11.632115] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH03.yaml\n'}
+[11.632155] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH04.yaml\n'}
+[11.632180] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH05.yaml\n'}
+[11.632206] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V101.yaml\n'}
+[11.632231] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V102.yaml\n'}
+[11.632281] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V103.yaml\n'}
+[11.632304] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V201.yaml\n'}
+[11.632327] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V202.yaml\n'}
+[11.632351] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V203.yaml\n'}
+[11.632378] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/RealSense_D435i.yaml\n'}
+[11.632404] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/RealSense_T265.yaml\n'}
+[11.632430] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM-VI.yaml\n'}
+[11.632454] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[11.632479] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[11.632504] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[11.632529] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[11.632553] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[11.632578] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[11.632624] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[11.632691] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[11.632720] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[11.632747] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[11.632772] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[11.632798] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[11.632824] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[11.632849] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[11.632874] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[11.632900] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[11.632938] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[11.633000] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[11.633027] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[11.633064] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[11.633101] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[11.633124] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[11.633150] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[11.633175] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[11.633203] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[11.633248] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[11.633296] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[11.633339] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[11.633394] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[11.633502] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//vocabulary/ORBvoc.txt.tar.gz\n'}
+[11.633559] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3\n'}
+[11.633632] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3\n'}
+[11.633704] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh\n'}
+[11.633768] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv\n'}
+[11.633832] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.sh\n'}
+[11.633892] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.dsv\n'}
+[11.633955] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.bash\n'}
+[11.634015] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.sh\n'}
+[11.634074] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.zsh\n'}
+[11.634131] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.dsv\n'}
+[11.634175] (orbslam3) StdoutLine: {'line': b'-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.dsv\n'}
+[11.634597] (-) TimerEvent: {}
+[11.642332] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3\n'}
+[11.642417] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake\n'}
+[11.642447] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake\n'}
+[11.642488] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.xml\n'}
+[11.643871] (orbslam3) CommandEnded: {'returncode': 0}
+[11.656571] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 0}
+[11.664288] (-) EventReactorShutdown: {}

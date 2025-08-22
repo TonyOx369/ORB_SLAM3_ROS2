@@ -1,0 +1,37 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/mono.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable mono[0m
+[ 75%] Built target mono
+[ 83%] [32m[1mLinking CXX executable rgbd[0m
+[ 83%] Built target rgbd
+[ 91%] [32m[1mLinking CXX executable stereo[0m
+[100%] [32m[1mLinking CXX executable stereo-inertial[0m
+[100%] Built target stereo
+[100%] Built target stereo-inertial
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/mono
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/rgbd
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.sh
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.bash
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.sh
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.dsv
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.xml

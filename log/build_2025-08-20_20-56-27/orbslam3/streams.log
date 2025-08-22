@@ -1,0 +1,988 @@
+[0.008s] Invoking command in '/home/sid/orb_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sid/orb_ws/build/orbslam3 -- -j20 -l20
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.060s] [ 25%] Built target stereo
+[0.062s] [ 50%] Built target rgbd
+[0.063s] [ 75%] Built target mono
+[0.073s] [ 83%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[2.459s] In file included from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:30[m[K,
+[2.459s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.459s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.459s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.459s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.459s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.459s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.459s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.459s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.459s] [01m[K/home/sid/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[2.459s] [01m[K/home/sid/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.459s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[2.459s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.507s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.507s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.507s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.507s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[2.507s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.507s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.507s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[2.507s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.507s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.507s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.507s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.507s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.507s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.507s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.507s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.519s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.519s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.519s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.519s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.519s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.519s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[2.519s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.519s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.519s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.519s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.519s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.519s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.520s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.520s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.520s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.520s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.520s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.520s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.520s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.520s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[2.520s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.520s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.520s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.520s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.520s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.520s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.520s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.520s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.545s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.545s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.545s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.545s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.546s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.546s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[2.546s]       |                                      [01;35m[K^[m[K
+[2.546s]       |                                      [31m[K-[m[K
+[2.733s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.733s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.733s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.733s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.733s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.733s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.734s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.734s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.734s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[2.734s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[2.734s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.734s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.734s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.734s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.734s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.734s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.734s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.734s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.734s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.734s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.734s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.750s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.750s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.750s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.750s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[2.750s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[2.750s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.750s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.750s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.750s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.750s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.750s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.750s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.750s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.750s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.750s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.750s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.764s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.764s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.764s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.765s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.765s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.765s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[2.765s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[2.765s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.765s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.765s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.765s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.765s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.765s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.765s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.765s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.765s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.765s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.765s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.765s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.765s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.765s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.765s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.765s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.765s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.766s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.766s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.766s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.766s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.766s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.766s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.766s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.766s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.800s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.800s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.800s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.800s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[2.800s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[2.800s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.800s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.800s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.800s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.800s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.800s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.800s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.800s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.800s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.800s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.800s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.806s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.806s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.806s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.806s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.807s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.807s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.807s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.807s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.807s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.807s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.807s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.807s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.807s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.807s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.807s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.836s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.836s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.836s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.836s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[2.836s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[2.836s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.836s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.836s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.836s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.836s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.836s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.836s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.837s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.837s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.837s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.837s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.837s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.837s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.837s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.837s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.837s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.837s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.837s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.837s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.837s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.837s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.837s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.837s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.837s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.837s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.940s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.940s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.941s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.941s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.941s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[2.941s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[2.941s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.941s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.941s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.941s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.941s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.941s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.941s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.941s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.941s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.941s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.941s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.958s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.958s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.958s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.958s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[2.958s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[2.958s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.958s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.958s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.958s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.958s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.958s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.959s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.959s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.959s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.959s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.959s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.959s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.959s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.959s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.959s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.959s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.959s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.959s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.959s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.959s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.959s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.959s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.959s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.959s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.960s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.980s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.980s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.981s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.981s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.981s] /home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[2.981s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[2.981s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.981s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.981s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.981s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.981s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.981s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.981s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.981s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.981s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.981s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.981s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.988s] In file included from [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.988s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.988s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.988s] [01m[K/home/sid/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.988s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.988s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.988s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.988s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.988s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[2.988s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[2.988s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[2.988s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.988s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.988s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.560s] In file included from [01m[K/home/sid/ORB_SLAM3/include/Atlas.h:26[m[K,
+[3.560s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[3.560s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.560s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.561s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[3.561s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[3.561s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[3.561s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[3.561s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[3.561s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[3.561s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[3.561s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[3.561s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[3.561s]       |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.561s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.561s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[3.561s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.561s] In file included from [01m[K/home/sid/ORB_SLAM3/include/Atlas.h:27[m[K,
+[3.561s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[3.561s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.561s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.561s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[3.562s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[3.562s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]   102 |         const float [01;35m[Kprecision[m[K;
+[3.562s]       |                     [01;35m[K^~~~~~~~~[m[K
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[3.562s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[3.562s] In file included from [01m[K/home/sid/ORB_SLAM3/include/Atlas.h:27[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[3.562s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[3.562s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[3.562s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.562s] In file included from [01m[K/home/sid/ORB_SLAM3/include/Atlas.h:27[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.562s]                  from [01m[K/home/sid/ORB_SLAM3/include/System.h:31[m[K,
+[3.562s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.hpp:10[m[K,
+[3.562s]                  from [01m[K/home/sid/orb_ws/src/orbslam3/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]   102 |         const float [01;35m[Kprecision[m[K;
+[3.562s]       |                     [01;35m[K^~~~~~~~~[m[K
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[3.562s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[3.562s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]   102 |         const float [01;35m[Kprecision[m[K;
+[3.562s]       |                     [01;35m[K^~~~~~~~~[m[K
+[3.562s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.562s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[3.562s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[3.563s] [01m[K/home/sid/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.563s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[3.563s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.738s] [ 91%] [32m[1mLinking CXX executable stereo-inertial[0m
+[11.005s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.2
+[11.005s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.2
+[11.377s] [100%] Built target stereo-inertial
+[11.386s] Invoked command in '/home/sid/orb_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sid/orb_ws/build/orbslam3 -- -j20 -l20
+[11.394s] Invoking command in '/home/sid/orb_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sid/orb_ws/build/orbslam3
+[11.401s] -- Install configuration: ""
+[11.401s] -- Execute custom install script
+[11.402s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/mono
+[11.402s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/rgbd
+[11.402s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo
+[11.402s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+[11.402s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//launch/stereo_orbslam3.launch.py
+[11.404s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC.yaml
+[11.404s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH01.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH02.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH03.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH04.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH05.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V101.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V102.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V103.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V201.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V202.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V203.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH01.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH02.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH03.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH04.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH05.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V101.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V102.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V103.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V201.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V202.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V203.txt
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH01.yaml
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH02.yaml
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH03.yaml
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH04.yaml
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH05.yaml
+[11.405s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V101.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V102.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V103.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V201.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V202.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V203.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/RealSense_D435i.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/RealSense_T265.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM-VI.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM-VI_far.yaml
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor1_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor2_1024.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor2_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor3_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor4_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor5_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale1_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale2_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale3_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale4_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale5_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale6_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors1_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors2_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors3_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors4_512.txt
+[11.406s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors5_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors6_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors7_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors8_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room1_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room2_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room3_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room4_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room5_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room6_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides1_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides2_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides3_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor1_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor2_1024.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor2_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor3_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor4_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor5_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale1_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale2_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale3_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale4_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale5_512.txt
+[11.407s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale6_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors1_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors2_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors3_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors4_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors5_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors6_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors7_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors8_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room1_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room2_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room3_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room4_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room5_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room6_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides1_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides2_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides3_512.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC.yaml
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH01.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH02.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH03.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH04.txt
+[11.408s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH05.txt
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V101.txt
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V102.txt
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V103.txt
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V201.txt
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V202.txt
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V203.txt
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI00-02.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI03.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI04-12.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH01.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH02.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH03.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH04.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH05.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V101.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V102.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V103.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V201.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V202.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V203.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/RealSense_D435i.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/RealSense_T265.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM-VI.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM1.yaml
+[11.409s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM2.yaml
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM3.yaml
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor1_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor2_1024.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor2_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor3_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor4_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor5_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale1_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale2_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale3_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale4_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale5_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale6_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors1_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors2_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors3_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors4_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors5_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors6_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors7_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors8_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room1_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room2_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room3_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room4_512.txt
+[11.410s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room5_512.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room6_512.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides1_512.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides2_512.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides3_512.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d-inertial/RealSense_D435i.yaml
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/RealSense_D435i.yaml
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM1.yaml
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM2.yaml
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM3.yaml
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_desk.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_desk2.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_room.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_xyz.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr2_desk.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr2_xyz.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_nstr_tex_near.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_office.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_office_val.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_str_tex_far.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_str_tex_near.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC.yaml
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH01.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH02.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH03.txt
+[11.411s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH04.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH05.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V101.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V102.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V103.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V201.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V202.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V203.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH01.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH02.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH03.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH04.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH05.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V101.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V102.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V103.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V201.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V202.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V203.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V203_2.txt
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH01.yaml
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH02.yaml
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH03.yaml
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH04.yaml
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH05.yaml
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V101.yaml
+[11.412s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V102.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V103.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V201.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V202.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V203.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/RealSense_D435i.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/RealSense_T265.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM-VI.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM-VI_far.yaml
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor1_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor2_1024.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor2_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor3_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor4_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor5_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale1_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale2_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale3_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale4_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale5_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale6_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors1_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors2_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors3_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors4_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors5_512.txt
+[11.413s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors6_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors7_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors8_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room1_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room2_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room3_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room4_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room5_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room6_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides1_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides2_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides3_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor1_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor2_1024.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor2_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor3_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor4_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor5_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale1_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale2_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale3_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale4_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale5_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale6_512.txt
+[11.414s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors1_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors2_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors3_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors4_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors5_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors6_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors7_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors8_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room1_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room2_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room3_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room4_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room5_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room6_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides1_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides2_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides3_512.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC.yaml
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH01.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH02.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH03.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH04.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH05.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V101.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V102.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V103.txt
+[11.415s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V201.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V202.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V203.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI00-02.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI03.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI04-12.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH01.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH02.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH03.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH04.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH05.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V101.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V102.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V103.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V201.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V202.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V203.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/RealSense_D435i.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/RealSense_T265.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM-VI.yaml
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor1_512.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor2_1024.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor2_512.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor3_512.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor4_512.txt
+[11.416s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor5_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale1_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale2_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale3_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale4_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale5_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale6_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors1_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors2_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors3_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors4_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors5_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors6_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors7_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors8_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room1_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room2_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room3_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room4_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room5_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room6_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides1_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides2_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides3_512.txt
+[11.417s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//vocabulary/ORBvoc.txt.tar.gz
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.sh
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.bash
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.sh
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+[11.418s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+[11.418s] -- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.dsv
+[11.425s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[11.425s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[11.425s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[11.425s] -- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.xml
+[11.426s] Invoked command in '/home/sid/orb_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sid/orb_ws/build/orbslam3

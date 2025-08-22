@@ -1,0 +1,397 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.000426] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.006714] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.009262] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '/home/sid/orb_ws/src/orbslam3', '-DCMAKE_INSTALL_PREFIX=/home/sid/orb_ws/install/orbslam3'], 'cwd': '/home/sid/orb_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib:'), ('LESS', '-R'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sid'), ('OSH', '/home/sid/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sid:@/tmp/.ICE-unix/2785,unix/sid:/tmp/.ICE-unix/2785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2f008bc_0f54_421e_8423_66c3b4e86216'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/orb_ws/build/orbslam3'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058290] (orbslam3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100038] (-) TimerEvent: {}
+[0.152748] (orbslam3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.165109] (orbslam3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.190368] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.192787] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.197774] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.200104] (-) TimerEvent: {}
+[0.205430] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.214653] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.239361] (orbslam3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.241523] (orbslam3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300283] (-) TimerEvent: {}
+[0.330314] (orbslam3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.368805] (orbslam3) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.388037] (orbslam3) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.394725] (orbslam3) StdoutLine: {'line': b'-- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.400348] (-) TimerEvent: {}
+[0.450162] (orbslam3) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.480472] (orbslam3) StdoutLine: {'line': b'-- Generating done\n'}
+[0.486476] (orbslam3) StdoutLine: {'line': b'-- Build files have been written to: /home/sid/orb_ws/build/orbslam3\n'}
+[0.494522] (orbslam3) CommandEnded: {'returncode': 0}
+[0.495078] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'build'}
+[0.495980] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sid/orb_ws/build/orbslam3', '--', '-j20', '-l20'], 'cwd': '/home/sid/orb_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib:'), ('LESS', '-R'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sid'), ('OSH', '/home/sid/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sid:@/tmp/.ICE-unix/2785,unix/sid:/tmp/.ICE-unix/2785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2f008bc_0f54_421e_8423_66c3b4e86216'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/orb_ws/build/orbslam3'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.500585] (-) TimerEvent: {}
+[0.532762] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo-inertial\x1b[0m\n'}
+[0.533193] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mono\x1b[0m\n'}
+[0.534172] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo\x1b[0m\n'}
+[0.534591] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rgbd\x1b[0m\n'}
+[0.600698] (-) TimerEvent: {}
+[0.610671] (orbslam3) StdoutLine: {'line': b'[ 41%] Built target stereo-inertial\n'}
+[0.610846] (orbslam3) StdoutLine: {'line': b'[ 50%] Built target rgbd\n'}
+[0.610966] (orbslam3) StdoutLine: {'line': b'[100%] Built target mono\n'}
+[0.611044] (orbslam3) StdoutLine: {'line': b'[100%] Built target stereo\n'}
+[0.619966] (orbslam3) CommandEnded: {'returncode': 0}
+[0.620626] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'install'}
+[0.627962] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sid/orb_ws/build/orbslam3'], 'cwd': '/home/sid/orb_ws/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2147450879'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib:'), ('LESS', '-R'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sid'), ('OSH', '/home/sid/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sid:@/tmp/.ICE-unix/2785,unix/sid:/tmp/.ICE-unix/2785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e2f008bc_0f54_421e_8423_66c3b4e86216'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('HISTSIZE', '2147450879'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/orb_ws/build/orbslam3'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.633536] (orbslam3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.633830] (orbslam3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.634076] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/mono\n'}
+[0.634142] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/rgbd\n'}
+[0.634207] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo\n'}
+[0.634272] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/lib/orbslam3/stereo-inertial\n'}
+[0.635083] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//launch/stereo_orbslam3.launch.py\n'}
+[0.640493] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC.yaml\n'}
+[0.640699] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH01.txt\n'}
+[0.640797] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH02.txt\n'}
+[0.640898] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH03.txt\n'}
+[0.641001] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH04.txt\n'}
+[0.641108] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/MH05.txt\n'}
+[0.641216] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V101.txt\n'}
+[0.641302] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V102.txt\n'}
+[0.641529] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V103.txt\n'}
+[0.641625] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V201.txt\n'}
+[0.641914] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V202.txt\n'}
+[0.642086] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_IMU/V203.txt\n'}
+[0.642232] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH01.txt\n'}
+[0.642318] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH02.txt\n'}
+[0.642415] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH03.txt\n'}
+[0.642538] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH04.txt\n'}
+[0.642791] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/MH05.txt\n'}
+[0.643010] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V101.txt\n'}
+[0.643231] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V102.txt\n'}
+[0.643346] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V103.txt\n'}
+[0.643413] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V201.txt\n'}
+[0.643574] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V202.txt\n'}
+[0.643678] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/EuRoC_TimeStamps/V203.txt\n'}
+[0.643764] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH01.yaml\n'}
+[0.643851] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH02.yaml\n'}
+[0.643910] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH03.yaml\n'}
+[0.643986] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH04.yaml\n'}
+[0.644054] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_MH05.yaml\n'}
+[0.644124] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V101.yaml\n'}
+[0.644185] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V102.yaml\n'}
+[0.644253] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V103.yaml\n'}
+[0.644323] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V201.yaml\n'}
+[0.644392] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V202.yaml\n'}
+[0.644465] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/MultiSession/EuRoC_V203.yaml\n'}
+[0.644535] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/RealSense_D435i.yaml\n'}
+[0.644663] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/RealSense_T265.yaml\n'}
+[0.644810] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM-VI.yaml\n'}
+[0.644896] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM-VI_far.yaml\n'}
+[0.644987] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor1_512.txt\n'}
+[0.645100] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor2_1024.txt\n'}
+[0.645155] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor2_512.txt\n'}
+[0.645295] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor3_512.txt\n'}
+[0.645367] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor4_512.txt\n'}
+[0.645569] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-corridor5_512.txt\n'}
+[0.645653] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale1_512.txt\n'}
+[0.645729] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale2_512.txt\n'}
+[0.645802] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale3_512.txt\n'}
+[0.645883] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale4_512.txt\n'}
+[0.645957] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale5_512.txt\n'}
+[0.646030] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-magistrale6_512.txt\n'}
+[0.646102] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors1_512.txt\n'}
+[0.646174] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors2_512.txt\n'}
+[0.646254] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors3_512.txt\n'}
+[0.646376] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors4_512.txt\n'}
+[0.646507] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors5_512.txt\n'}
+[0.646659] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors6_512.txt\n'}
+[0.646790] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors7_512.txt\n'}
+[0.646860] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-outdoors8_512.txt\n'}
+[0.646933] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room1_512.txt\n'}
+[0.647009] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room2_512.txt\n'}
+[0.647084] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room3_512.txt\n'}
+[0.647194] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room4_512.txt\n'}
+[0.647271] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room5_512.txt\n'}
+[0.647346] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-room6_512.txt\n'}
+[0.647427] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides1_512.txt\n'}
+[0.647512] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides2_512.txt\n'}
+[0.647585] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_IMU/dataset-slides3_512.txt\n'}
+[0.647688] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[0.647760] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[0.647832] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[0.648033] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[0.648105] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[0.648176] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[0.648361] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[0.648573] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[0.648656] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[0.648731] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[0.648806] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[0.648881] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[0.648962] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[0.649033] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[0.649105] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[0.649177] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[0.649248] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[0.649429] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[0.649555] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[0.649621] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[0.649676] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[0.649725] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[0.649796] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[0.649868] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[0.649938] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[0.650010] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[0.650082] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[0.650153] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[0.650225] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular-inertial/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[0.650438] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC.yaml\n'}
+[0.650542] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH01.txt\n'}
+[0.650617] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH02.txt\n'}
+[0.650691] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH03.txt\n'}
+[0.650760] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH04.txt\n'}
+[0.650827] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/MH05.txt\n'}
+[0.650894] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V101.txt\n'}
+[0.650965] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V102.txt\n'}
+[0.651128] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V103.txt\n'}
+[0.651310] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V201.txt\n'}
+[0.651382] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V202.txt\n'}
+[0.651461] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/EuRoC_TimeStamps/V203.txt\n'}
+[0.651546] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI00-02.yaml\n'}
+[0.651589] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI03.yaml\n'}
+[0.651783] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/KITTI04-12.yaml\n'}
+[0.651890] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH01.yaml\n'}
+[0.651968] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH02.yaml\n'}
+[0.652035] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH03.yaml\n'}
+[0.652108] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH04.yaml\n'}
+[0.652177] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_MH05.yaml\n'}
+[0.652249] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V101.yaml\n'}
+[0.652421] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V102.yaml\n'}
+[0.652613] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V103.yaml\n'}
+[0.652677] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V201.yaml\n'}
+[0.652739] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V202.yaml\n'}
+[0.652799] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/MultiSession/EuRoC_V203.yaml\n'}
+[0.652857] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/RealSense_D435i.yaml\n'}
+[0.652914] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/RealSense_T265.yaml\n'}
+[0.652954] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM-VI.yaml\n'}
+[0.652992] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM1.yaml\n'}
+[0.653033] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM2.yaml\n'}
+[0.653075] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM3.yaml\n'}
+[0.653157] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[0.653221] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[0.653418] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[0.653484] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[0.653545] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[0.653602] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[0.653661] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[0.653718] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[0.653899] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[0.654123] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[0.654248] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[0.654308] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[0.654357] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[0.654446] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[0.654529] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[0.654621] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[0.654849] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[0.654918] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[0.654991] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[0.655064] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[0.655142] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[0.655214] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[0.655288] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[0.655360] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[0.655547] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[0.655616] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[0.655691] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[0.655762] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[0.655834] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/monocular/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[0.655940] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d-inertial/RealSense_D435i.yaml\n'}
+[0.656040] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/RealSense_D435i.yaml\n'}
+[0.656085] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM1.yaml\n'}
+[0.656130] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM2.yaml\n'}
+[0.656172] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/TUM3.yaml\n'}
+[0.656409] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_desk.txt\n'}
+[0.656483] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_desk2.txt\n'}
+[0.656560] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_room.txt\n'}
+[0.656634] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr1_xyz.txt\n'}
+[0.656707] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr2_desk.txt\n'}
+[0.656778] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr2_xyz.txt\n'}
+[0.656852] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_nstr_tex_near.txt\n'}
+[0.657018] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_office.txt\n'}
+[0.657205] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_office_val.txt\n'}
+[0.657276] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_str_tex_far.txt\n'}
+[0.657349] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/rgb-d/associations/fr3_str_tex_near.txt\n'}
+[0.657462] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC.yaml\n'}
+[0.657565] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH01.txt\n'}
+[0.657636] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH02.txt\n'}
+[0.657815] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH03.txt\n'}
+[0.657889] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH04.txt\n'}
+[0.657953] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/MH05.txt\n'}
+[0.658026] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V101.txt\n'}
+[0.658102] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V102.txt\n'}
+[0.658168] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V103.txt\n'}
+[0.658240] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V201.txt\n'}
+[0.658337] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V202.txt\n'}
+[0.658409] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_IMU/V203.txt\n'}
+[0.658508] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH01.txt\n'}
+[0.658580] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH02.txt\n'}
+[0.658651] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH03.txt\n'}
+[0.658722] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH04.txt\n'}
+[0.658793] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/MH05.txt\n'}
+[0.658862] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V101.txt\n'}
+[0.659047] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V102.txt\n'}
+[0.659114] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V103.txt\n'}
+[0.659186] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V201.txt\n'}
+[0.659270] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V202.txt\n'}
+[0.659336] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V203.txt\n'}
+[0.659404] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/EuRoC_TimeStamps/V203_2.txt\n'}
+[0.659589] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH01.yaml\n'}
+[0.659771] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH02.yaml\n'}
+[0.659823] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH03.yaml\n'}
+[0.659884] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH04.yaml\n'}
+[0.659946] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_MH05.yaml\n'}
+[0.660005] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V101.yaml\n'}
+[0.660173] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V102.yaml\n'}
+[0.660238] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V103.yaml\n'}
+[0.660291] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V201.yaml\n'}
+[0.660350] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V202.yaml\n'}
+[0.660418] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/MultiSession/EuRoC_V203.yaml\n'}
+[0.660487] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/RealSense_D435i.yaml\n'}
+[0.660566] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/RealSense_T265.yaml\n'}
+[0.660633] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM-VI.yaml\n'}
+[0.660702] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM-VI_far.yaml\n'}
+[0.660792] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor1_512.txt\n'}
+[0.660873] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor2_1024.txt\n'}
+[0.661080] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor2_512.txt\n'}
+[0.661138] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor3_512.txt\n'}
+[0.661205] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor4_512.txt\n'}
+[0.661269] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-corridor5_512.txt\n'}
+[0.661333] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale1_512.txt\n'}
+[0.661405] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale2_512.txt\n'}
+[0.661471] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale3_512.txt\n'}
+[0.661535] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale4_512.txt\n'}
+[0.661600] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale5_512.txt\n'}
+[0.661661] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-magistrale6_512.txt\n'}
+[0.661725] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors1_512.txt\n'}
+[0.661786] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors2_512.txt\n'}
+[0.661848] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors3_512.txt\n'}
+[0.661910] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors4_512.txt\n'}
+[0.661967] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors5_512.txt\n'}
+[0.662029] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors6_512.txt\n'}
+[0.662219] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors7_512.txt\n'}
+[0.662280] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-outdoors8_512.txt\n'}
+[0.662339] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room1_512.txt\n'}
+[0.662401] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room2_512.txt\n'}
+[0.662463] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room3_512.txt\n'}
+[0.662529] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room4_512.txt\n'}
+[0.662594] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room5_512.txt\n'}
+[0.662660] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-room6_512.txt\n'}
+[0.662718] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides1_512.txt\n'}
+[0.662778] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides2_512.txt\n'}
+[0.662839] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_IMU/dataset-slides3_512.txt\n'}
+[0.662923] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[0.662987] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[0.663049] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[0.663110] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[0.663290] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[0.663482] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[0.663546] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[0.663610] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[0.663674] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[0.663737] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[0.663797] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[0.663856] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[0.663918] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[0.663979] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[0.664172] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[0.664233] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[0.664296] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[0.664359] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[0.664424] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[0.664485] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[0.664549] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[0.664610] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[0.664670] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[0.664732] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[0.664794] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[0.664854] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[0.665023] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[0.665084] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[0.665144] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo-inertial/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[0.665210] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC.yaml\n'}
+[0.665298] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH01.txt\n'}
+[0.665359] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH02.txt\n'}
+[0.665427] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH03.txt\n'}
+[0.665488] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH04.txt\n'}
+[0.665548] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/MH05.txt\n'}
+[0.665767] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V101.txt\n'}
+[0.665960] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V102.txt\n'}
+[0.666022] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V103.txt\n'}
+[0.666088] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V201.txt\n'}
+[0.666150] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V202.txt\n'}
+[0.666212] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/EuRoC_TimeStamps/V203.txt\n'}
+[0.666257] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI00-02.yaml\n'}
+[0.666304] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI03.yaml\n'}
+[0.666343] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/KITTI04-12.yaml\n'}
+[0.666566] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH01.yaml\n'}
+[0.666627] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH02.yaml\n'}
+[0.666690] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH03.yaml\n'}
+[0.666752] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH04.yaml\n'}
+[0.666811] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_MH05.yaml\n'}
+[0.666875] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V101.yaml\n'}
+[0.666932] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V102.yaml\n'}
+[0.666992] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V103.yaml\n'}
+[0.667054] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V201.yaml\n'}
+[0.667116] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V202.yaml\n'}
+[0.667177] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/MultiSession/EuRoC_V203.yaml\n'}
+[0.667370] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/RealSense_D435i.yaml\n'}
+[0.667430] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/RealSense_T265.yaml\n'}
+[0.667471] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM-VI.yaml\n'}
+[0.667550] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor1_512.txt\n'}
+[0.667610] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor2_1024.txt\n'}
+[0.667667] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor2_512.txt\n'}
+[0.667726] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor3_512.txt\n'}
+[0.667783] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor4_512.txt\n'}
+[0.667840] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-corridor5_512.txt\n'}
+[0.667894] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale1_512.txt\n'}
+[0.667954] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale2_512.txt\n'}
+[0.668011] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale3_512.txt\n'}
+[0.668067] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale4_512.txt\n'}
+[0.668123] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale5_512.txt\n'}
+[0.668184] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-magistrale6_512.txt\n'}
+[0.668247] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors1_512.txt\n'}
+[0.668435] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors2_512.txt\n'}
+[0.668603] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors3_512.txt\n'}
+[0.668839] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors4_512.txt\n'}
+[0.668903] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors5_512.txt\n'}
+[0.668971] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors6_512.txt\n'}
+[0.669036] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors7_512.txt\n'}
+[0.669111] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-outdoors8_512.txt\n'}
+[0.669181] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room1_512.txt\n'}
+[0.669252] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room2_512.txt\n'}
+[0.669315] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room3_512.txt\n'}
+[0.669384] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room4_512.txt\n'}
+[0.669455] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room5_512.txt\n'}
+[0.669518] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-room6_512.txt\n'}
+[0.669583] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides1_512.txt\n'}
+[0.669641] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides2_512.txt\n'}
+[0.669705] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//config/stereo/TUM_TimeStamps/dataset-slides3_512.txt\n'}
+[0.670161] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3//vocabulary/ORBvoc.txt.tar.gz\n'}
+[0.670500] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3\n'}
+[0.670822] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3\n'}
+[0.670919] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh\n'}
+[0.671003] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv\n'}
+[0.671090] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.sh\n'}
+[0.671286] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/environment/path.dsv\n'}
+[0.671369] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.bash\n'}
+[0.671455] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.sh\n'}
+[0.671529] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.zsh\n'}
+[0.671607] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/local_setup.dsv\n'}
+[0.671654] (orbslam3) StdoutLine: {'line': b'-- Symlinking: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.dsv\n'}
+[0.678892] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3\n'}
+[0.678966] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake\n'}
+[0.678990] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake\n'}
+[0.679028] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/orb_ws/install/orbslam3/share/orbslam3/package.xml\n'}
+[0.680481] (orbslam3) CommandEnded: {'returncode': 0}
+[0.701226] (-) TimerEvent: {}
+[0.705863] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 0}
+[0.706346] (-) EventReactorShutdown: {}

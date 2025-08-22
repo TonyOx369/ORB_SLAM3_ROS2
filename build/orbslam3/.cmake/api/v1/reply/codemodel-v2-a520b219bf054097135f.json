@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cfc4c3f75910203858f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "orbslam3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mono::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mono-a1b3d1a10f6b82f88871.json",
+					"name" : "mono",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbslam3_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbslam3_uninstall-c6d91d29c2effb4d4771.json",
+					"name" : "orbslam3_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd-7ff348909ced476f9cb9.json",
+					"name" : "rgbd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo-c6964f16afeb4a9100e1.json",
+					"name" : "stereo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo-inertial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo-inertial-e6fbf210960a63d86c08.json",
+					"name" : "stereo-inertial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-00162de83f96ee69ba33.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sid/orb_ws/build/orbslam3",
+		"source" : "/home/sid/orb_ws/src/orbslam3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

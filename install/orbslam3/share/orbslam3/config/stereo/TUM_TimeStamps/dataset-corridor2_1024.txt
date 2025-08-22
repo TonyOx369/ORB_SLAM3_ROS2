@@ -1,0 +1,1 @@
+/home/sid/orb_ws/src/orbslam3/config/stereo/TUM_TimeStamps/dataset-corridor2_1024.txt

@@ -1,0 +1,1 @@
+/home/sid/orb_ws/src/orbslam3/config/monocular-inertial/EuRoC_IMU/MH02.txt

@@ -1,0 +1,1 @@
+/home/sid/orb_ws/src/orbslam3/config/monocular/EuRoC_TimeStamps/MH02.txt
