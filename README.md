@@ -30,6 +30,66 @@ sudo cmake --build build --target install
 cd ..
 ```
 
+### Install OpenCV 4.2 from Source
+
+First install required dependencies:
+
+sudo apt-get update
+sudo apt-get install -y build-essential cmake git unzip pkg-config \
+    libjpeg-dev libpng-dev libtiff-dev \
+    libavcodec-dev libavformat-dev libswscale-dev \
+    libgtk-3-dev libcanberra-gtk3-module \
+    libxvidcore-dev libx264-dev libxine2-dev \
+    libv4l-dev v4l-utils \
+    libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
+    libtbb2 libtbb-dev \
+    libdc1394-22-dev \
+    libopenexr-dev \
+    libatlas-base-dev gfortran \
+    python3-dev python3-numpy
+
+
+Clone OpenCV and contrib modules:
+
+cd ~
+git clone https://github.com/opencv/opencv.git
+git clone https://github.com/opencv/opencv_contrib.git
+cd opencv
+git checkout 4.2.0
+cd ../opencv_contrib
+git checkout 4.2.0
+
+
+Build OpenCV:
+
+cd ~/opencv
+mkdir build && cd build
+
+cmake -D CMAKE_BUILD_TYPE=Release \
+      -D CMAKE_INSTALL_PREFIX=/usr/local \
+      -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+      -D WITH_TBB=ON \
+      -D WITH_V4L=ON \
+      -D WITH_QT=OFF \
+      -D WITH_OPENGL=ON \
+      -D BUILD_opencv_python3=ON \
+      -D BUILD_EXAMPLES=OFF ..
+
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+
+
+Check installation:
+
+pkg-config --modversion opencv4
+
+
+Expected output:
+
+4.2.0
+
+
 ---
 
 ## 📂 Step 2: Set Up the Workspace
