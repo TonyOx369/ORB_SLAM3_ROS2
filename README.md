@@ -182,3 +182,7 @@ source /opt/ros/humble/setup.bash
 ros2 bag play /path/to/your/bag/folder/ --clock
 ```
 
+
+
+https://github.com/user-attachments/assets/5c1e133c-ed01-4bbb-9832-60e9c7f50fdb
+
