@@ -1,7 +1,4 @@
-Got it 🚀 — you want the **actual README.md file code** only, not explanations.
-Here’s the raw Markdown code you can copy directly into a `README.md`:
 
-````markdown
 # ORB-SLAM3 with ZED ROS 2 Bag on Humble
 
 This guide shows how to run **ORB-SLAM3** with a **custom ZED ROS 2 bag file** on **ROS 2 Humble**.  
