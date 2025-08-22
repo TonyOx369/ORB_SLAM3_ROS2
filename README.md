@@ -34,7 +34,6 @@ cd ..
 
 ORB-SLAM3 requires a specific version of OpenCV (4.2). Install it from source as follows:
 
-### Install dependencies
 ```bash
 sudo apt-get update
 sudo apt-get install -y build-essential cmake git unzip pkg-config \
